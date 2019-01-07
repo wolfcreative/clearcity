@@ -101,6 +101,8 @@ header .uk-navbar-nav > li > a{font-size:14px}
 .form-aside{max-width:350px;text-align:center;padding:30px 35px;background:#fff;border-radius:1px;color:#000;box-sizing:border-box}
 .form-aside > *:not(legend){max-width:95%;margin:auto}
 
+.partners{background:#fbfff4;padding:35px 0}
+
 footer{margin-top:140px;background:#272727;padding:20px 0}
 footer .uk-list{color:#fff;font-size:16px}
 footer .phone{font-size:22px;color:#fff}
