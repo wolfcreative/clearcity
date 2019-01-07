@@ -12,6 +12,7 @@ body{font-size:18px}
 header .uk-grid{min-height:112px;background:#fff}
 header .logo a{display:block;margin-top:-3px;margin-bottom:3px!important}
 header .address{color:#4e4e4e;font-size:18px}
+header .phone{text-align:right}
 header .phone a{color:#000;font-size:22px}
 header .uk-button-green{padding:1px 20px 0}
 @media (max-width:1279px){
@@ -38,8 +39,17 @@ header .uk-navbar-nav > li > a{font-size:14px}
 .afterhead .advantages .uk-grid>div{color:#ebebeb;font-size:18px}
 .afterhead .advantages .uk-grid>div span{display:block;margin-top:10px}
 
-.docblock{border:1px solid #f4f4f4;padding-top:25px}
-.docblock h3{margin-bottom:30px}
+.afterhead2 .uk-cover-container{height:550px}
+.afterhead2 .uk-panel{z-index:3;padding:0}
+.afterhead2 .uk-panel>div{width:64%}
+.afterhead2 .uk-cover-container:after{content:'';width:100%;height:100%;position:absolute;z-index:1;top:0;left:0;right:0;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(0,0,0,0.61) 29%)}
+.afterhead2 h2{font-size:50px;line-height:1.04;text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.7);font-weight:400}
+.afterhead2 p{color:#fff}
+.afterhead2 .uk-slider-container{padding:0}
+.afterhead2 .uk-slider-nav{position:absolute;bottom:50px}
+
+.docblock{border:1px solid #f4f4f4}
+.docblock>h3{margin:25px 0 30px}
 .docblock .info{background:#f4f4f4;padding:40px 45px}
 .docblock h4{font-size:20px;font-weight:400;margin-bottom:5px}
 .docblock p{font-size:18px;margin-top:5px}
@@ -92,10 +102,20 @@ footer .address{font-size:16px}
 footer .uk-button-ghost{font-size:16px;padding:0 15px}
 }
 
+.form-aside{padding:30px 50px;background:#fff;border-radius:1px}
+
+/* Support */
+.gray{color:#8a8a8a}
+
+/* size */
+.font-16{font-size:16px}
+
 /* Buttons */
 .uk-button{text-transform:none;border-radius:4px}
 .uk-button-green{background:#82ca00;color:#fff;font-size:18px;line-height:45px}
 .uk-button-green:hover{background:#77b800;color:#fff}
+.uk-button-greenalter{background:#fff;border:1px solid #77b800;color:#77b800;font-size:18px;line-height:45px}
+.uk-button-greenalter:hover{background:#649b00;color:#fff}
 .uk-button-ghost{background:#fff;color:#000!important;font-size:20px;line-height:55px;box-shadow:0 0 8px 0 rgba(0,0,0,0.35)}
 .uk-button-ghost:hover{background:#d9d9d9}
 .uk-button-halfghost{font-size:18px;line-height:45px;border:1px solid #fff;background:rgba(255,255,255,0.52)}
@@ -104,6 +124,11 @@ footer .uk-button-ghost{font-size:16px;padding:0 15px}
 /* UiKit replacer */
 .main .uk-input{height:50px;border-radius:2px;padding:10px 20px;font-size:16px;color:#333;background-color:#fff;box-shadow:0 0 4px 0 rgba(0,0,0,0.2)}
 .uk-modal .uk-input{font-size:16px}
+.uk-listnav{list-style:none;padding:0;font-size:0}
+.uk-listnav>li{display:inline-block}
+.uk-listnav>li a{color:#9c9c9c;font-size:20px;border-bottom:1px solid #9c9c9c;padding:5px 10px}
+.uk-listnav>li.uk-active a,.uk-listnav>li a:hover{color:#82ca00;border-bottom-color:#82ca00}
+.uk-badge-red{border-radius:0;background:#ff353e;font-size:20px}
 
 /* Icon phone */
 i.phonewhite{display: inline-block;width:14px;height:14px;background: url(../img/awesome/phone-white.png);margin-right:5px}
